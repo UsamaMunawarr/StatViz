@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Streamlit
+.streamlit/config.toml (uncomment if you want to keep theme locally only, but we want it for cloud)
+#.streamlit/
+
+# Reports and temporary files
+*.png
+*.pdf
+temp/
+/tmp/
+
+# Data and Models
+*.csv
+*.xlsx
+*.pkl
+dataset/
+
+# OS
+.DS_Store
+Thumbs.db
