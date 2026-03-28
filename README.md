@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 align="center">📊 StatViz Pro: The Enterprise Data Science Platform</h1>
+  <h1 align="center">📊 StatViz: The Enterprise Data Science Platform</h1>
   <p align="center">
     <strong>A lightning-fast, fully interactive, no-code alternative to SPSS built for modern researchers and data scientists.</strong>
   </p>
@@ -18,68 +18,96 @@
 
 ---
 
-## 🎯 What is StatViz Pro?
-**StatViz Pro** eliminates the steep learning curve of programming languages and the enormous costs of legacy software (like SPSS and SAS). Access premium tools to confidently filter datasets, hunt down outliers, generate interactive visualizations, run rigorous hypothesis tests, and train machine learning models completely visually without writing a single line of code.
+## 🎯 What is StatViz?
+**StatViz** completely eliminates the steep learning curve of programming languages and the enormous costs of legacy software (like SPSS and SAS). Access premium tools to confidently filter datasets, hunt down outliers, generate interactive visualizations, run rigorous hypothesis tests, and train complex machine learning models completely visually without writing a single line of code.
 
 ---
 
 ## 🎬 Platform Previews
 
-| **1. Dynamic Dashboard & Data Prep** | **2. Exploratory Data Analysis (EDA)** |
-|:---:|:---:|
-| <img src="demo/dashboard.gif" alt="Dashboard" width="100%"> | <img src="demo/eda.gif" alt="EDA" width="100%"> |
-| Clean uploads, robust type casting, and scaling. | Missing value heatmaps and outlier Boxplots. |
-
-| **3. Rigorous Hypothesis Testing** | **4. Hyper-Tuned Machine Learning** |
-|:---:|:---:|
-| <img src="demo/testing.gif" alt="Tests" width="100%"> | <img src="demo/modeling.gif" alt="ML" width="100%"> |
-| Parametric, Non-Parametric, and Normality checks. | Train Random Forests, SVMs, & XGBoost instantly. |
-
 <div align="center">
-  <h3>📑 PDF & Word Document Engine</h3>
-  <img src="demo/reports.gif" alt="Reports" width="70%">
-  <br>
-  <p><i>Generate complete, academic-grade analytical reports directly to your computer.</i></p>
+  <img src="demo/StatViz.png" alt="StatViz Home Dashboard" width="90%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+</div>
+<br>
+
+| **Intelligent Data Pipeline** | **Exploratory Analytics (EDA)** |
+|:---:|:---:|
+| <img src="demo/StatViz2.png" alt="Data Prep" width="100%"> | <img src="demo/StatViz3.png" alt="EDA Module" width="100%"> |
+| Clean uploads, robust robust type casting, and Z-Score scaling. | Identify distributions, missing value heatmaps, and outlier checks. |
+
+| **Rigorous Hypothesis Testing** | **Advanced Machine Learning** |
+|:---:|:---:|
+| <img src="demo/StatViz4.png" alt="Statistical Tests" width="100%"> | <img src="demo/statviz5.png" alt="ML Engine" width="100%"> |
+| Parametric, Non-Parametric, and pure strict Normality verification. | Train XGBoost, Neural Networks (ANN), and Random Forests. |
+
+| **Multivariate Diagnostics** | **SPSS-Style Statistical Engine** |
+|:---:|:---:|
+| <img src="demo/statviz6.png" alt="PCA Analysis" width="100%"> | <img src="demo/statviz7.png" alt="SPSS Exact Tables" width="100%"> |
+| Advanced Dimensionality Reduction (PCA) and Factor Analysis. | True SPSS outputs (B, SE, Beta, Wald, p) and Stepwise Selection! |
+
+<br>
+<div align="center">
+  <h3>📑 PDF Document Generation & Automated Insights</h3>
+  <img src="demo/statviz8.png" alt="Automated PDF Engine" width="48%" style="margin-right: 1%;">
+  <img src="demo/statviz9.png" alt="Realtime Reporting" width="48%">
+  <p><i>Generate complete, academic-grade analytical reports and fully compiled modeling PDFs directly to your computer.</i></p>
 </div>
 
 ---
 
 ## 🌟 Core Features & Modules
 
-### ⚙️ 1. Intelligent Data Preparation
-- **Instant Connectivity:** Work with `.CSV`, `.Excel`, or load built-in Sandbox APIs instantly.
-- **Smart Formatting:** Convert variables, encode distinct categorical elements, and dynamically inject **Z-Score** or **Min-Max Scaling** with one click.
+### ⚙️ 1. Complete Data Preparation
+<img align="right" width="300" src="demo/statviz10.png" style="border-radius: 8px;">
+
+- **Instant Connectivity:** Work seamlessly with `.CSV`, `.Excel`, or load built-in Sandbox APIs instantly.
+- **Smart Formatting:** Convert variables, encode distinct categorical elements (Label Encoding natively built-in), and dynamically inject **Z-Score** or **Min-Max Scaling** with one beautiful click.
 - **Master Filters:** Subset your entire dataset gracefully based on multi-variate continuous or categorical conditions. Global filters impact the entire app lifecycle perfectly.
 
+<br clear="both"/>
+
 ### 🔍 2. Precision EDA (Exploratory Data Analysis)
-- **Visual Missingness:** Use integrated Seaborn heatmaps to scan data voids, and deploy mean/median/mode imputations.
+<img align="right" width="300" src="demo/statviz11.png" style="border-radius: 8px;">
+
+- **Visual Missingness:** Use integrated Seaborn heatmaps to scan data voids, and deploy mean/median/mode imputations automatically to save time.
 - **Zero-Tolerance Outliers:** Spot statistical anomalies via high-definition boxplots and Winsorize or terminate them immediately to protect model validity.
 
+<br clear="both"/>
+
 ### 📈 3. Uncompromised Analytics & Plotting
+<img align="right" width="300" src="demo/statviz12.png" style="border-radius: 8px;">
+
 - **Custom Charts:** Render 3D Scatters, high-resolution Histograms, and dynamic Pie charts powered by Plotly.
 - **Multivariate Power:** Reveal latent dimensions leveraging **Principal Component Analysis (PCA)** and **Exploratory Factor Analysis (EFA)**, complete with eigenvalue outputs and Component Loadings Matrices.
-- **Core Statistics:** Fast extraction of shape, distribution variance, and central tendencies.
+- **Core Statistics:** Fast extraction of shape, distribution variance, and central tendencies natively.
+
+<br clear="both"/>
 
 ### 🦾 4. No-Code Machine Learning
-- **Zero Syntax Needed:** Fit powerful Regressors and Classifiers (Random Forest, SVM, Logistic Regression, XGBoost).
-- **Control Parameters (Hyper-Tuning):** Easily maneuver learning rates, K-neighbors, and tree-depths via dashboard sliders.
-- **Deployment Ready:** Found the perfect model? Download the `.pkl` files and seamlessly transfer them to your production systems.
-- **K-Means Clustering:** Isolate unlabelled data easily with beautiful 2D and 3D cluster visualizers.
+<img align="right" width="300" src="demo/statviz13.png" style="border-radius: 8px;">
+
+- **Zero Syntax Needed:** Fit extremely powerful Regressors and Classifiers (Random Forest, SVM/SVC, KNN, XGBoost, ANN).
+- **SPSS Stepwise Engines:** Select features flawlessly using automated Forward, Backward, and Stepwise methods exactly like SPSS.
+- **Control Parameters (Hyper-Tuning):** Easily maneuver learning rates, Neural Network Hidden Layers, K-neighbors, and tree-depths via dashboard sliders.
+- **Feature Importance Tracking:** Extract both Impurity-based and robust Permutation Feature Importance plots natively!
+- **Deployment Ready:** Found the perfect model? Download the `.pkl` files and seamlessly transfer them to your production systems!
+
+<br clear="both"/>
 
 ### 🤖 5. Automation & Time-Series
 - **Temporal Forecasting:** Leverage embedded ARIMA techniques to graph sequential time-data trends actively.
-- **Report Fabrication:** StatViz Pro computes data summaries and builds Correlation Matrices natively—printing pristine PDF or easily editable `MS Word (.docx)` academic reports exactly formatted in Times New Roman.
+- **Report Fabrication:** StatViz computes data summaries and builds Correlation Matrices natively—printing pristine PDF or easily editable `MS Word (.docx)` academic reports exactly formatted in Times New Roman.
 
 ---
 
 ## 🛠️ The Tech Architecture
-> **StatViz Pro** relies on a blazing fast, top-tier modern Python backend:
+> **StatViz** relies on a blazing fast, top-tier modern Python backend:
 
 | Capability         | Powered By |
 |--------------------|------------|
 | **Core UI Engine**    | `Streamlit` |
 | **Data Orchestration**| `Pandas`, `NumPy` |
-| **Machine Learning**  | `Scikit-Learn`, `XGBoost`, `Factor-Analyzer` |
+| **Machine & Stat ML** | `Scikit-Learn`, `XGBoost`, `Statsmodels` |
 | **Visual Renderers**  | `Plotly Express`, `Seaborn` |
 | **Report Generators** | `FPDF2`, `Python-Docx` |
 
@@ -89,22 +117,22 @@
 
 **1. Clone the project locally**
 ```bash
-git clone https://github.com/UsamaMunawarr/StatViz-Pro.git
-cd StatViz-Pro
+git clone https://github.com/UsamaMunawarr/StatViz.git
+cd StatViz
 ```
 
 **2. Isolate the environment & install the core**
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+python -m venv .venv
+.\.venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
 **3. Ignite the Platform**
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
-*Your browser will instantly launch the StatViz Pro interface.*
+*Your browser will instantly launch the StatViz interface.*
 
 ---
 
@@ -120,5 +148,5 @@ streamlit run app.py
   <br>
   <br>
   <p><b>Data Analytics | Machine Learning | Backend Architecture</b></p>
-  <i>If StatViz Pro elevates your research or adds value to your data journey, please grant this repository a ⭐ to support open-source tooling!</i>
+  <i>If StatViz elevates your research or adds value to your data journey, please grant this repository a ⭐ to support open-source tooling!</i>
 </div>
