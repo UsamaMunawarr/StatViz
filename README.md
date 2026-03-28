@@ -42,7 +42,7 @@
 
 | **Multivariate Diagnostics** | **PDF Document Generation & Automated Insights** |
 |:---:|:---:|
-| <img src="demo/statviz9.png" alt="PCA Analysis" width="100%"> | <img src="demo/statviz7.png" alt="SPSS Exact Tables" width="100%"> |
+| <img src="demo/statviz9.png" alt="PCA Analysis" width="100%"> | <img src="demo/statviz12.png" alt="SPSS Exact Tables" width="100%"> |
 | Advanced Dimensionality Reduction (PCA) and Factor Analysis. | Generate complete, academic-grade analytical reports |
 
 <br>
