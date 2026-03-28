@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>StatViz - Presentation Slides</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- Reveal.js styles over CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+  <!-- Custom theme overrides to perfectly match the StatViz dark theme -->
+  <style>
+    .reveal {
+      background-color: #0a1628;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .reveal h1,
+    .reveal h2,
+    .reveal h3,
+    .reveal h4 {
+      text-transform: none;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-bottom: 20px;
+    }
+
+    .reveal h1 {
+      color: #00d4aa;
+      font-weight: 800;
+      text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .reveal h2 {
+      color: #48C9B0;
+      font-weight: 600;
+      font-size: 2.2em;
+    }
+
+    .reveal h3 {
+      color: #1abc9c;
+      font-size: 1.8em;
+    }
+
+    .slide-body {
+      color: #d3d3d3;
+      font-size: 1.6em;
+      line-height: 1.6;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .icon {
+      font-size: 4.5em;
+      margin-bottom: 30px;
+      display: block;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .developer-credits {
+      color: #a9a9a9;
+      font-size: 0.8em;
+      margin-top: 40px;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(0px);
+      }
+
+      50% {
+        transform: translateY(-15px);
+      }
+
+      100% {
+        transform: translateY(0px);
+      }
+    }
+
+    /* Stylish subtle border box for content */
+    .content-box {
+      border: 2px solid #112240;
+      border-left: 5px solid #00d4aa;
+      background-color: #112240;
+      padding: 60px 40px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0, 212, 170, 0.1);
+      min-height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- Title Slide -->
+      <section>
+        <h1 style="font-size: 3em;">StatViz</h1>
+        <h3>Platform Walkthrough</h3>
+        <p class="developer-credits">Developed by Usama Munawar</p>
+      </section>
+
+      <!-- Slide: Home -->
+      <section>
+        <div class="content-box">
+          <span class="icon">🏠</span>
+          <h2>Home Dashboard</h2>
+          <div class="slide-body">
+            <p>Welcome to StatViz. This Dashboard serves as your central hub to navigate through the entire data
+              analysis platform effortlessly, without writing a single line of code.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide: Import -->
+      <section>
+        <div class="content-box">
+          <span class="icon">📂</span>
+          <h2>1. Data Import & Edit</h2>
+          <div class="slide-body">
+            <p>Upload your datasets with ease via CSV or Excel mapping. You also have the powerful ability to
+              <strong>edit your raw data directly</strong> within the platform before analysis.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide: Prep -->
+      <section>
+        <div class="content-box">
+          <span class="icon">🔀</span>
+          <h2>2. Data Preparation</h2>
+          <div class="slide-body">
+            <p>Comprehensive data wrangling: Apply data type conversions, encode variables, standardize/scale data,
+              delete or rename columns, and securely save your prepped dataset back to CSV or Excel.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide: Filter & EDA -->
+      <section>
+        <div class="content-box">
+          <span class="icon">🔍</span>
+          <h2>3. Filtering & EDA</h2>
+          <div class="slide-body">
+            <p>Filter records dynamically and perform Exploratory Data Analysis. Handle missing data through
+              visualizations and tackle outliers with advanced Winsorization.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide: Stats & Plot -->
+      <section>
+        <div class="content-box">
+          <span class="icon">📊</span>
+          <h2>4. Statistics & Plotting</h2>
+          <div class="slide-body">
+            <p>Compute deep descriptive statistics out of the box. Generate interactive, fully responsive visual charts
+              to uncover hidden data patterns in seconds.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide: Tests -->
+      <section>
+        <div class="content-box">
+          <span class="icon">🧠</span>
+          <h2>5. Hypothesis Testing</h2>
+          <div class="slide-body">
+            <p>Run rigorous statistical tests seamlessly. Test for Normality, and execute Parametric (ANOVA, T-Tests) or
+              Non-Parametric tests instantly.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide: Multivariate -->
+      <section>
+        <div class="content-box">
+          <span class="icon">📐</span>
+          <h2>6. Multivariate Analysis</h2>
+          <div class="slide-body">
+            <p>Advanced Dimensionality Reduction. Digest complex variable relationships utilizing Principal Component
+              Analysis (PCA) and Exploratory Factor Analysis (EFA).</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide: Machine Learning -->
+      <section>
+        <div class="content-box" style="padding: 40px; min-height: 550px;">
+          <span class="icon" style="margin-bottom: 10px; font-size: 3.5em;">🤖</span>
+          <h2 style="font-size: 1.8em; margin-bottom: 15px;">7. Statistical & ML Modeling</h2>
+          <div class="slide-body" style="font-size: 1.2em; max-width: 1200px; text-align: left;">
+            <ul style="line-height: 1.5; margin-left: 20px;">
+              <li style="margin-bottom: 15px;"><strong>Advanced Algorithms:</strong> SVR/SVC, Random Forest, XGBoost,
+                KNN, and Artificial Neural Networks (ANN) with hyperparameter tuning.</li>
+              <li style="margin-bottom: 15px;"><strong>SPSS-Style Engine:</strong> Formatted output tables for Linear &
+                Logistic Regression (Unstandardized B, Std. Error, Beta, p-values).</li>
+              <li style="margin-bottom: 15px;"><strong>Variable Selection:</strong> Automated Forward, Backward, and
+                Stepwise data selection methods.</li>
+              <li style="margin-bottom: 15px;"><strong>Feature Importance:</strong> Deep visual analysis using both
+                Impurity-based & Permutation techniques.</li>
+              <li><strong>Export & Reports:</strong> One-click download of a compiled Model Summary PDF Report!</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide: Time Series -->
+      <section>
+        <div class="content-box">
+          <span class="icon">📈</span>
+          <h2>8. Time Series</h2>
+          <div class="slide-body">
+            <p>Forecast and predict underlying trends dynamically with custom auto-ARIMA modeling applied directly to
+              your date-indexed variables.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide: PDF Report Generate -->
+      <section>
+        <div class="content-box">
+          <span class="icon">🖨️</span>
+          <h2>9. Generate PDF Reports</h2>
+          <div class="slide-body">
+            <p>Automate your documentation. Compile all insights and model analysis down to a single cohesive, fully
+              downloadable PDF Statistical Report.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Transition Slide -->
+      <section>
+        <h1 style="font-size: 2.5em;">Let's see it in action!</h1>
+        <p class="slide-body">Transitioning to the application workflow...</p>
+      </section>
+
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+  <script>
+    // Initialize the Reveal.js presentation with some awesome aesthetic parameters
+    Reveal.initialize({
+      hash: true,
+      transition: 'convex', // Use 'fade', 'slide', 'convex', 'concave', or 'zoom'
+      transitionSpeed: 'slow',
+      controls: true,
+      progress: true,
+      center: true,
+      keyboard: true,
+    });
+  </script>
+</body>
+
+</html>

@@ -208,7 +208,7 @@ def main():
     # App-wide Footer
     st.markdown("""
     <div style='text-align: center; color: #00d4aa; font-size: 20px; margin-top: 50px;'>
-    💚 Thank you for using StatViz Pro, share it with your friends! 😇 <br>
+    💚 Thank you for using StatViz, share it with your friends! 😇 <br>
     <b>Developed by Usama Munawar</b>
     </div>
     """, unsafe_allow_html=True)
