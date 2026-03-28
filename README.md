@@ -32,25 +32,25 @@
 
 | **Intelligent Data Pipeline** | **Exploratory Analytics (EDA)** |
 |:---:|:---:|
-| <img src="demo/StatViz2.png" alt="Data Prep" width="100%"> | <img src="demo/StatViz3.png" alt="EDA Module" width="100%"> |
+| <img src="demo/StatViz2.png" alt="Data Prep" width="100%"> | <img src="demo/statviz5.png" alt="EDA Module" width="100%"> |
 | Clean uploads, robust robust type casting, and Z-Score scaling. | Identify distributions, missing value heatmaps, and outlier checks. |
 
 | **Rigorous Hypothesis Testing** | **Advanced Machine Learning** |
 |:---:|:---:|
-| <img src="demo/StatViz4.png" alt="Statistical Tests" width="100%"> | <img src="demo/statviz5.png" alt="ML Engine" width="100%"> |
+| <img src="demo/statviz8.png" alt="Statistical Tests" width="100%"> | <img src="demo/statviz10.png" alt="ML Engine" width="100%"> |
 | Parametric, Non-Parametric, and pure strict Normality verification. | Train XGBoost, Neural Networks (ANN), and Random Forests. |
 
-| **Multivariate Diagnostics** | **SPSS-Style Statistical Engine** |
+| **Multivariate Diagnostics** | **PDF Document Generation & Automated Insights** |
 |:---:|:---:|
-| <img src="demo/statviz6.png" alt="PCA Analysis" width="100%"> | <img src="demo/statviz7.png" alt="SPSS Exact Tables" width="100%"> |
-| Advanced Dimensionality Reduction (PCA) and Factor Analysis. | True SPSS outputs (B, SE, Beta, Wald, p) and Stepwise Selection! |
+| <img src="demo/statviz9.png" alt="PCA Analysis" width="100%"> | <img src="demo/statviz7.png" alt="SPSS Exact Tables" width="100%"> |
+| Advanced Dimensionality Reduction (PCA) and Factor Analysis. | Generate complete, academic-grade analytical reports |
 
 <br>
 <div align="center">
-  <h3>📑 PDF Document Generation & Automated Insights</h3>
-  <img src="demo/statviz8.png" alt="Automated PDF Engine" width="48%" style="margin-right: 1%;">
-  <img src="demo/statviz9.png" alt="Realtime Reporting" width="48%">
-  <p><i>Generate complete, academic-grade analytical reports and fully compiled modeling PDFs directly to your computer.</i></p>
+  <h3>📑 Contact Page</h3>
+  <img src="demo/statviz13.png" alt="Automated PDF Engine" width="48%" style="margin-right: 1%;">
+  <!--<img src="demo/statviz9.png" alt="Realtime Reporting" width="48%">-->
+  <p><i>Passionate Data Scientist and Developer building tools to make statistics and machine learning beautifully accessible to everyone.</i></p>
 </div>
 
 ---
@@ -58,7 +58,7 @@
 ## 🌟 Core Features & Modules
 
 ### ⚙️ 1. Complete Data Preparation
-<img align="right" width="300" src="demo/statviz10.png" style="border-radius: 8px;">
+<img align="right" width="300" src="demo/StatViz2.png" style="border-radius: 8px;">
 
 - **Instant Connectivity:** Work seamlessly with `.CSV`, `.Excel`, or load built-in Sandbox APIs instantly.
 - **Smart Formatting:** Convert variables, encode distinct categorical elements (Label Encoding natively built-in), and dynamically inject **Z-Score** or **Min-Max Scaling** with one beautiful click.
@@ -75,7 +75,7 @@
 <br clear="both"/>
 
 ### 📈 3. Uncompromised Analytics & Plotting
-<img align="right" width="300" src="demo/statviz12.png" style="border-radius: 8px;">
+<img align="right" width="300" src="demo/statviz7.png" style="border-radius: 8px;">
 
 - **Custom Charts:** Render 3D Scatters, high-resolution Histograms, and dynamic Pie charts powered by Plotly.
 - **Multivariate Power:** Reveal latent dimensions leveraging **Principal Component Analysis (PCA)** and **Exploratory Factor Analysis (EFA)**, complete with eigenvalue outputs and Component Loadings Matrices.
@@ -84,7 +84,7 @@
 <br clear="both"/>
 
 ### 🦾 4. No-Code Machine Learning
-<img align="right" width="300" src="demo/statviz13.png" style="border-radius: 8px;">
+<img align="right" width="300" src="demo/statviz10.png" style="border-radius: 8px;">
 
 - **Zero Syntax Needed:** Fit extremely powerful Regressors and Classifiers (Random Forest, SVM/SVC, KNN, XGBoost, ANN).
 - **SPSS Stepwise Engines:** Select features flawlessly using automated Forward, Backward, and Stepwise methods exactly like SPSS.
@@ -95,6 +95,8 @@
 <br clear="both"/>
 
 ### 🤖 5. Automation & Time-Series
+<img align="right" width="300" src="demo/statviz12.png" style="border-radius: 8px;">
+
 - **Temporal Forecasting:** Leverage embedded ARIMA techniques to graph sequential time-data trends actively.
 - **Report Fabrication:** StatViz computes data summaries and builds Correlation Matrices natively—printing pristine PDF or easily editable `MS Word (.docx)` academic reports exactly formatted in Times New Roman.
 
