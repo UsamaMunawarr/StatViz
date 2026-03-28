@@ -45,17 +45,17 @@
 | <img src="demo/statviz9.png" alt="PCA Analysis" width="100%"> | <img src="demo/statviz12.png" alt="SPSS Exact Tables" width="100%"> |
 | Advanced Dimensionality Reduction (PCA) and Factor Analysis. | Generate complete, academic-grade analytical reports |
 
-| **Multivariate Diagnostics** |
+| **📑 Contact Page** |
 |:---:|
-| <img src="demo/statviz9.png" alt="PCA Analysis" width="100%"> |
-| Advanced Dimensionality Reduction (PCA) and Factor Analysis. |
+| <img src="demo/statviz13.png" alt="contact" width="100%"> |
+| Passionate Data Scientist and Developer building tools to make statistics and machine learning beautifully accessible to everyone.. |
 
-<br>
+<!--<br>
 <div align="center">
   <h3>📑 Contact Page</h3>
   <img src="demo/statviz13.png" alt="StatViz Home Dashboard" width="90%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   <p><i>Passionate Data Scientist and Developer building tools to make statistics and machine learning beautifully accessible to everyone.</i></p>
-</div>
+</div>-->
 
 <!--<div align="center">
   <h3>📑 Contact Page</h3>
